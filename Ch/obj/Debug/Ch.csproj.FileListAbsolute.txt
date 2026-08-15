@@ -1,0 +1,15 @@
+C:\Users\PC\Desktop\Ch\Ch\bin\Debug\Ch.exe.config
+C:\Users\PC\Desktop\Ch\Ch\bin\Debug\Ch.exe
+C:\Users\PC\Desktop\Ch\Ch\bin\Debug\Ch.pdb
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Form1.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Form2.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Form3.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Form4.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Form5.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.Properties.Resources.resources
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.exe
+C:\Users\PC\Desktop\Ch\Ch\obj\Debug\Ch.pdb
