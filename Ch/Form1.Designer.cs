@@ -52,7 +52,7 @@
             this.تعديلالبياناتToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(895, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(895, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,20 +62,20 @@
             this.اغلاقToolStripMenuItem,
             this.اغلاقالكلToolStripMenuItem});
             this.ملفToolStripMenuItem.Name = "ملفToolStripMenuItem";
-            this.ملفToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.ملفToolStripMenuItem.Size = new System.Drawing.Size(52, 26);
             this.ملفToolStripMenuItem.Text = "ملف";
             // 
             // اغلاقToolStripMenuItem
             // 
             this.اغلاقToolStripMenuItem.Name = "اغلاقToolStripMenuItem";
-            this.اغلاقToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.اغلاقToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
             this.اغلاقToolStripMenuItem.Text = "اغلاق";
             this.اغلاقToolStripMenuItem.Click += new System.EventHandler(this.اغلاقToolStripMenuItem_Click);
             // 
             // اغلاقالكلToolStripMenuItem
             // 
             this.اغلاقالكلToolStripMenuItem.Name = "اغلاقالكلToolStripMenuItem";
-            this.اغلاقالكلToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.اغلاقالكلToolStripMenuItem.Size = new System.Drawing.Size(156, 26);
             this.اغلاقالكلToolStripMenuItem.Text = "اغلاق الكل";
             this.اغلاقالكلToolStripMenuItem.Click += new System.EventHandler(this.اغلاقالكلToolStripMenuItem_Click);
             // 
@@ -86,43 +86,45 @@
             this.صورةالطالبToolStripMenuItem,
             this.عرضالبياناتToolStripMenuItem});
             this.الرئيسيةToolStripMenuItem.Name = "الرئيسيةToolStripMenuItem";
-            this.الرئيسيةToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.الرئيسيةToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
             this.الرئيسيةToolStripMenuItem.Text = "الرئيسية";
             // 
             // بياناتالطالبToolStripMenuItem
             // 
             this.بياناتالطالبToolStripMenuItem.Name = "بياناتالطالبToolStripMenuItem";
-            this.بياناتالطالبToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.بياناتالطالبToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
             this.بياناتالطالبToolStripMenuItem.Text = "بيانات الطالب";
             this.بياناتالطالبToolStripMenuItem.Click += new System.EventHandler(this.بياناتالطالبToolStripMenuItem_Click);
             // 
             // صورةالطالبToolStripMenuItem
             // 
             this.صورةالطالبToolStripMenuItem.Name = "صورةالطالبToolStripMenuItem";
-            this.صورةالطالبToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.صورةالطالبToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
             this.صورةالطالبToolStripMenuItem.Text = "صورة الطالب";
             this.صورةالطالبToolStripMenuItem.Click += new System.EventHandler(this.صورةالطالبToolStripMenuItem_Click);
             // 
             // عرضالبياناتToolStripMenuItem
             // 
             this.عرضالبياناتToolStripMenuItem.Name = "عرضالبياناتToolStripMenuItem";
-            this.عرضالبياناتToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.عرضالبياناتToolStripMenuItem.Size = new System.Drawing.Size(178, 26);
             this.عرضالبياناتToolStripMenuItem.Text = "عرض البيانات";
             this.عرضالبياناتToolStripMenuItem.Click += new System.EventHandler(this.عرضالبياناتToolStripMenuItem_Click);
             // 
             // تعديلالبياناتToolStripMenuItem
             // 
             this.تعديلالبياناتToolStripMenuItem.Name = "تعديلالبياناتToolStripMenuItem";
-            this.تعديلالبياناتToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.تعديلالبياناتToolStripMenuItem.Size = new System.Drawing.Size(110, 26);
             this.تعديلالبياناتToolStripMenuItem.Text = "تعديل البيانات";
             this.تعديلالبياناتToolStripMenuItem.Click += new System.EventHandler(this.تعديلالبياناتToolStripMenuItem_Click);
             // 
             // textname
             // 
-            this.textname.Location = new System.Drawing.Point(77, 157);
-            this.textname.Multiline = true;
+            this.textname.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textname.Font = new System.Drawing.Font("Courier New", 15F);
+            this.textname.Location = new System.Drawing.Point(90, 179);
             this.textname.Name = "textname";
-            this.textname.Size = new System.Drawing.Size(609, 67);
+            this.textname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textname.Size = new System.Drawing.Size(609, 36);
             this.textname.TabIndex = 1;
             this.textname.TextChanged += new System.EventHandler(this.textname_TextChanged);
             // 

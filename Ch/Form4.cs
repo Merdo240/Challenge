@@ -12,6 +12,7 @@ namespace Ch
 {
     public partial class Form4 : Form
     {
+        bool isExpanded = false;
         public Form4()
         {
             InitializeComponent();
@@ -29,8 +30,7 @@ namespace Ch
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            bool isExpanded = false;
+        { 
 
             if (!isExpanded)
             {
@@ -44,12 +44,13 @@ namespace Ch
                 button1.Text = "<<";
                 isExpanded = true;
             }
-            else
+            else if(isExpanded)
             {
                 this.Width = 497;
                 button1.Text = ">>";
                 isExpanded = false;
             }
+
         }
     }
 }

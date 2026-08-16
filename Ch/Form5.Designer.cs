@@ -78,7 +78,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(98, 188);
+            this.radioButton4.Location = new System.Drawing.Point(77, 190);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(124, 33);
             this.radioButton4.TabIndex = 0;
@@ -89,7 +89,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(98, 149);
+            this.radioButton3.Location = new System.Drawing.Point(77, 151);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(124, 33);
             this.radioButton3.TabIndex = 0;
@@ -100,7 +100,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(98, 110);
+            this.radioButton2.Location = new System.Drawing.Point(77, 112);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(124, 33);
             this.radioButton2.TabIndex = 0;
@@ -111,7 +111,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(98, 71);
+            this.radioButton1.Location = new System.Drawing.Point(77, 73);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(94, 33);
             this.radioButton1.TabIndex = 0;
@@ -177,9 +177,11 @@
             // 
             // textBoxdept
             // 
-            this.textBoxdept.Location = new System.Drawing.Point(536, 135);
+            this.textBoxdept.Font = new System.Drawing.Font("Courier New", 12F);
+            this.textBoxdept.Location = new System.Drawing.Point(529, 129);
             this.textBoxdept.Name = "textBoxdept";
-            this.textBoxdept.Size = new System.Drawing.Size(232, 23);
+            this.textBoxdept.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBoxdept.Size = new System.Drawing.Size(232, 30);
             this.textBoxdept.TabIndex = 4;
             // 
             // label1
@@ -194,9 +196,11 @@
             // 
             // textBoxCol
             // 
-            this.textBoxCol.Location = new System.Drawing.Point(536, 96);
+            this.textBoxCol.Font = new System.Drawing.Font("Courier New", 12F);
+            this.textBoxCol.Location = new System.Drawing.Point(529, 93);
             this.textBoxCol.Name = "textBoxCol";
-            this.textBoxCol.Size = new System.Drawing.Size(232, 23);
+            this.textBoxCol.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.textBoxCol.Size = new System.Drawing.Size(232, 30);
             this.textBoxCol.TabIndex = 5;
             // 
             // picStudent
@@ -226,7 +230,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(896, 498);
+            this.ClientSize = new System.Drawing.Size(911, 493);
             this.Controls.Add(this.picStudent);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
